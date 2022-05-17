@@ -1,0 +1,5 @@
+nrgpy-ex/
+venv/
+*__pycache__/
+
+!.gitignore
