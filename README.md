@@ -10,6 +10,7 @@ notebook
 
 ## Additional resources
 
+|                      |                                              |
 | -------------------- | -------------------------------------------- |
 | **nrgpy**            | https://github.com/nrgpy/nrgpy/              |
 | Python download      | https://python.org/downloads/                |
