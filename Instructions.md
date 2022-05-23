@@ -55,12 +55,13 @@ You may find a little more security by putting the credentials in a
 separate file. Here's an example using a `creds.py` file in the same 
 directory as your Jupyter Notebook
 
-```python
+```python creds.py
 client_id = "this-is-my-client-id"
 client_secret = "this-is-my-client-secret"
 ```
 
-Then in the Jupyter notebook, simply import those from the `creds.py` module:
+Then in the Jupyter notebook, simply import those from the `creds.py` module in
+place of the cell that declared them:
 
 ```python
 from creds import client_id, client_secret
@@ -68,11 +69,11 @@ from creds import client_id, client_secret
 
 ## Using the Jupyter notebook
 
-There are many ways to use a Jupyter notebook. Here we are using it 
-in a fairly direct manner.
+There are many ways to use a Jupyter notebook. Here we are 
+running it as a web application and opening it in a browser.
 
-Note: if you are already a user of an IDE such as VS Code or Spyder then 
-you may prefer to use the built in Jupyter interface there.
+> __Note__: if you are already a user of an IDE such as VS Code or Spyder then 
+> you may prefer to use the built in Jupyter interface there.
 
 Run the following from your activated virtual environment:
 
