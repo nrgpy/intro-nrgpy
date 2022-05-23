@@ -7,28 +7,44 @@
 1. NRG Cloud account: https://cloud.nrgsystems.com/
 
 
-## Setup virtual environment
+## Set up virtual environment
 
 Virtual environments are used to isolate Python projects from each 
 other. It is possible to work without them, but they are very useful 
 and using them is regarded as best practice. 
 
-1. Check Python installation
-`python --version` (linux `python3 --version`)
-1. Virtual environment 
-    1. create a venv
-    `python -m venv nrgpy-ex`
-    1. activate it
-    `.\nrgpy-ex\Scripts\Activate.ps1`
-    1. You should see (nrgpy-ex) at the beginning of the terminal input 
-    line
-    **NOTE:** You may need to open another PowerShell window as admin, and 
-    type `Set-ExecutionPolicy RemoteSigned` and hit Y then Enter to proceed
-    1. install packages
-    `pip install nrgpy matplotlib windrose jupyterlab`
-1. Download Jupyter notebook example
+```python 
+python --version  # (linux `python3 --version`)
+python -m venv nrgpy-ex
+.\nrgpy-ex\Scripts\Activate.ps1
+```
 
-### Getting NRG Cloud credentials
+You should see (nrgpy-ex) at the beginning of the terminal input 
+line 
+
+**NOTE:** If you get an error you may need to open another PowerShell 
+window as admin (Right-click, Run as Administrator), and type the following
+
+```powershell
+Set-ExecutionPolicy RemoteSigned
+``` 
+
+ Type Y then Enter to proceed
+
+Or if you do not have admin privileges, try:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
+```
+
+### Install packages
+```powershell
+pip install nrgpy matplotlib windrose jupyterlab
+```
+
+### Download Jupyter notebook example
+
+## Getting NRG Cloud credentials
 
 API access is authenticated with a Client ID and Client Secret. These 
 credentials are accessible here:
@@ -50,7 +66,7 @@ Then in the Jupyter notebook, simply import those from the `creds.py` module:
 from creds import client_id, client_secret
 ```
 
-### Using the Jupyter notebook
+## Using the Jupyter notebook
 
 There are many ways to use a Jupyter notebook. Here we are using it 
 in a fairly direct manner.
@@ -60,7 +76,9 @@ you may prefer to use the built in Jupyter interface there.
 
 Run the following from your activated virtual environment:
 
-`jupyter lab`
+```powershell
+jupyter lab
+```
 
 You will be redirected to your browser, and Jupyter Lab will be running.
 
