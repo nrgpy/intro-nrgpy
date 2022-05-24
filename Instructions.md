@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. Python 3.5+ installed
+1. Python 3.6+ installed
 1. Windows (works on Linux/Mac too)
 1. NRG Cloud account: https://cloud.nrgsystems.com/
 
@@ -22,7 +22,7 @@ python -m venv nrgpy-ex
 You should see (nrgpy-ex) at the beginning of the terminal input 
 line 
 
-> __NOTE:__ If you get an error you may need to open another PowerShell 
+> __Note__: If you get an error you may need to open another PowerShell 
 > window as admin (Right-click, Run as Administrator), and type the following
 
 ```powershell
