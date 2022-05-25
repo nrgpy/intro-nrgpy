@@ -15,11 +15,11 @@ and using them is regarded as best practice.
 
 ```python 
 python --version  # (linux `python3 --version`)
-python -m venv nrgpy-ex
-.\nrgpy-ex\Scripts\Activate.ps1 # (linux `source nrgpy-ex/bin/activate`)
+python -m venv venv
+.\venv\Scripts\Activate.ps1 # (linux `source venv/bin/activate`)
 ```
 
-You should see (nrgpy-ex) at the beginning of the terminal input 
+You should see (venv) at the beginning of the terminal input 
 line 
 
 > __Note__: If you get an error you may need to open another PowerShell 
