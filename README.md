@@ -16,3 +16,4 @@ notebook
 | Python download      | https://python.org/downloads/                |
 | Jupyter Notebooks    | https://jupyter.org/                         |
 | Virtual Environments | https://docs.python.org/3/tutorial/venv.html |
+| Webinar Video        | [https://nrgsystems.com/...](https://www.nrgsystems.com/support/product-support/webinars/webinar-your-guide-to-nrgpy-an-open-source-python-package-for-easier-data-interactions/)                      |
