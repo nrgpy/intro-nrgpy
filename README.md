@@ -13,6 +13,7 @@ notebook
 |                      |                                              |
 | -------------------- | -------------------------------------------- |
 | **nrgpy**            | https://github.com/nrgpy/nrgpy/              |
+| **NRG Cloud**        | https://cloud.nrgsystems.com/                |
 | Python download      | https://python.org/downloads/                |
 | Jupyter Notebooks    | https://jupyter.org/                         |
 | Virtual Environments | https://docs.python.org/3/tutorial/venv.html |
