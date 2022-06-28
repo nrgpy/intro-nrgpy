@@ -4,7 +4,7 @@ Supporting files for the NRG Cloud + nrgpy webinar 25 May 2022
 
 ## Includes
 
-- Excample Jupyter notebook
+- Example Jupyter notebook
 - Instructions.md step-by-step intro for running the example Jupyter 
 notebook
 
